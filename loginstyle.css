@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url(img/header_background.jpg);
+    animation-duration: 100s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: scroll
+}
+
+@keyframes scroll {
+    100% {
+        background-position: center -3000px;
+    }
+}
+
+h1,
+h2 {
+    font-weight: bolder;
+    color: #EAF0F1;
+}
+
+form {
+    width: 400px;
+    padding: 40px;
+    /* background: black; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-bottom: 2px solid while;
+    border-top: 2px solid while;
+    border-left: 2px solid while;
+    border-right: 2px soild while;
+}
+
+.box input[type='text'],
+.box input[type='password'] {
+    background: none;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    border: 2px solid #0A79DF;
+    transition: 0.25s;
+    transition-timing-function: ease-in-out;
+    border-radius: 24px;
+    width: 200px;
+    padding: 18px 10px;
+    color: while;
+    font-weight: bold;
+}
+
+.box input[type='text']:focus,
+.box input[type='password']:focus {
+    width: 270px;
+    border: 2px solid greenyellow;
+    box-shadow: none;
+    display: block;
+    outline: none;
+}
+
+.box button {
+    background: none;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    border: 2px solid #0A79DF;
+    transition: 0.50s;
+    transition-timing-function: ease-in-out;
+    border-radius: 24px;
+    width: 200px;
+    padding: auto 10px;
+    color: while;
+    font-weight: bold;
+}
+
+.box button:hover {
+    border: 2px solid greenyellow;
+    box-shadow: none;
+    display: block;
+    outline: none;
+    border-radius: 0px;
+}
+
+img {
+    margin-left: 40px;
+}
