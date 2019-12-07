@@ -1,0 +1,41 @@
+.imgset {
+    height: 600px;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+/* .tbox {
+    width: 80%;
+    margin-right: -150px;
+} */
+
+.ll {
+    width: 1050px;
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.sediv {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', 'sans-serif'
+}
+
+.sediv span {
+    font-weight: 700;
+    color: #b5b5b5;
+    font-size: 10px;
+}
+
+.he {
+    margin-top: 150px;
+}
+
+h3 {
+    color: #b5b5b5;
+}

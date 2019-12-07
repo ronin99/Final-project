@@ -1,0 +1,87 @@
+body {
+    overflow: auto;
+    font-family: sans-serif;
+    color: #505962;
+}
+
+.narrow {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: 0.1rem;
+    background: rgba(0, 0, 0, .6)!important;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: while;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: greenyellow;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 38%;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+#infor {
+    margin-top: 150px;
+}
+
+.c {
+    color: gainsboro;
+    line-height: 20px;
+    ;
+}
+
+ul {
+    margin-top: -10px;
+}
+
+i {
+    color: gainsboro;
+}
+
+#hh {
+    margin-top: -10px;
+}
+
+.wall {
+    margin-top: 20px;
+}
+
+#homepage {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+#homepage:hover {
+    color: greenyellow;
+}
