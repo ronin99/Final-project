@@ -1,4 +1,4 @@
-# Final-project
+# Final-project By Sean Wu
 CSC271 Final project
 
 Don't start index first, start login first
